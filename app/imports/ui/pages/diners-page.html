@@ -1,3 +1,136 @@
 <template name="Diners_Page">
-  Diner's page.
+  <div class="ui bottom attached segment pushable">
+    <div class="ui visible inverted left vertical sidebar menu">
+      <a class="item">
+        <i class="home icon"></i>
+        Home
+      </a>
+      <a class="item">
+        <i class="heart icon"></i>
+        Craving
+      </a>
+      <a class="item">
+        <i class="smile icon"></i>
+        Cravings Available Today
+      </a>
+      <a class="item">
+        <i class="thumbs up icon"></i>
+        Rate
+      </a>
+      <a class="item">
+        <i class="settings icon"></i>
+        Options
+      </a>
+    </div>
+    <div class="pusher">
+      <div class="ui basic segment">
+        <h3 class="ui header">User Dashboard</h3>
+        <h1>Craving</h1>
+
+        <div class="ui form">
+          <div class="inline fields">
+            <label for="craving">I'm craving:</label>
+            <div class="field">
+              <div class="ui radio checkbox">
+                <input type="radio" name="craving" checked="" tabindex="0" class="hidden">
+                <label>Asian</label>
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui radio checkbox">
+                <input type="radio" name="craving" tabindex="0" class="hidden">
+                <label>Mexican</label>
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui radio checkbox">
+                <input type="radio" name="craving" tabindex="0" class="hidden">
+                <label>Indian</label>
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui radio checkbox">
+                <input type="radio" name="craving" tabindex="0" class="hidden">
+                <label>American</label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1>Cravings Available Today</h1>
+        <div class="ui middle aligned grid text container">
+          <div class="row">
+            <div style="margin-top: 20px" class="eight wide column">
+              <img class="ui middle aligned centered small image" src="/images/Stir-Fresh.png" height="150" width="150"/>
+
+              <p>Location: Campus Center, 1st floor</p>
+              <p>Accepts: Cash, Meal Swipes, Retail Points, Dining Dollars, Bonus Dollars and Credit Cards (Visa, MC, Amex, Discover & Diners)</p>
+              <h1>Today's Menu</h1>
+              <div class="ui bulleted list">
+                <div class="item">Poke Bowl $4.95</div>
+                <div class="item">Noodles $6.89</div>
+              </div>
+            </div>
+            </div>
+
+        <div style="margin-top: 20px" class="eight wide column">
+          <img class="ui middle aligned centered small image" src="/images/Bale.jpg" height="150" width="150"/>
+
+          <p>Location: Hemenway Hall, 1st floor</p>
+          <p>Accepts: Cash, Retail Points, Dining Dollars, Meal Swipes and Credit Cards (Visa, MC, Amex, Discover & Diners)</p>
+          <h1>Today's Menu</h1>
+          <div class="ui bulleted list">
+            <div class="item">Pho $6.89</div>
+          </div>
+        </div>
+        </div>
+        <h1>Rate</h1>
+        <select class="ui search dropdown">
+          <option value="">Restaurant</option>
+          <option value="AL">Stir Fresh</option>
+          <option value="AK">Campus Center</option>
+          <option value="AZ">Fried Musubi</option>
+          <option value="AZ">BaLe</option>
+          </select>
+        <select class="ui search dropdown">
+          <option value="">Food</option>
+          <option value="AL">Poke</option>
+          <option value="AK">Noodles</option>
+          <option value="AZ">Fried Musubi</option>
+        </select>
+        <div style="margin-top: 20px" class="ui form">
+          <div class="inline fields">
+            <label for="craving">Rate</label>
+            <div class="field">
+              <div class="ui radio checkbox">
+                <input type="radio" name="fruit" checked="" tabindex="0" class="hidden">
+                <label>1</label>
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui radio checkbox">
+                <input type="radio" name="fruit" tabindex="0" class="hidden">
+                <label>2</label>
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui radio checkbox">
+                <input type="radio" name="fruit" tabindex="0" class="hidden">
+                <label>3</label>
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui radio checkbox">
+                <input type="radio" name="fruit" tabindex="0" class="hidden">
+                <label>4</label>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h1>Options</h1>
+      </div>
+    </div>
+  </div>
+
+
 </template>
