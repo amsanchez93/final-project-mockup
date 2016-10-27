@@ -1,3 +1,92 @@
 <template name="Vendors_Page">
-  Vendor's page.
+  <div style="margin-top: 20px" class="ui container">
+    <form class="ui form">
+      <h4 class="ui dividing header">Add Dining Option</h4>
+
+      <div class="field">
+        <label>Name</label>
+            <input type="text" name="name" placeholder="Item Name">
+          </div>
+
+          <div class="field">
+            <label>Price</label>
+            <input type="text" name="price" placeholder="Price">
+          </div>
+
+      <div class="field">
+        <label>Description (Optional)</label>
+        <div class="field">
+          <input type="text" name="description" placeholder="Desciption">
+        </div>
+            </div>
+
+      <div class="ui form">
+        <div class="inline fields">
+          <label for="fruit">Select tags:</label>
+          <div class="field">
+            <div class="ui radio checkbox">
+              <input type="radio" name="fruit" checked="" tabindex="0" class="hidden">
+              <label>Asian</label>
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui radio checkbox">
+              <input type="radio" name="fruit" tabindex="0" class="hidden">
+              <label>Mexican</label>
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui radio checkbox">
+              <input type="radio" name="fruit" tabindex="0" class="hidden">
+              <label>Indian</label>
+            </div>
+          </div>
+          <div class="field">
+            <div class="ui radio checkbox">
+              <input type="radio" name="fruit" tabindex="0" class="hidden">
+              <label>American</label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button class="ui button" type="submit">Submit</button>
+
+    </form>
+  </div>
+
+
+  <div style="margin-top: 20px" class="ui container">
+  <table class="ui celled table">
+    <thead>
+    <tr><th>Item Name</th>
+      <th>Price</th>
+      <th>Description</th>
+      <th>Tags</th>
+    </tr></thead>
+    <tbody>
+    <tr>
+      <td>Fried Spicy Bomb Musubi</td>
+      <td>$4.95</td>
+      <td>Fried Musubi made with Spicy Bomb Stuff</td>
+      <td>Asian</td>
+    </tr>
+    <tr>
+      <td>Fried Classic Spam Musubi</td>
+      <td>$6.89</td>
+      <td>Classic Spam Musubi fried!</td>
+      <td>Asian</td>
+    </tr>
+    <tr>
+      <td>Daily/Weekly Specialty Fried Musubi</td>
+      <td>$4.89</td>
+      <td>Daily or Weekly Specialty Fried Musubi come by to see what it is!</td>
+      <td>Asian</td>
+    </tr>
+    </tbody>
+    </table>
+    </div>
+
+
 </template>
+

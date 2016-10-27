@@ -13,6 +13,9 @@ import './diners-page.js';
 import './vendors-page.html';
 import './vendors-page.js';
 
+import './login-page.html';
+import './login-page.js';
+
 import './edit-stuff-page.html';
 import './edit-stuff-page.js';
 
