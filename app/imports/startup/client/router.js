@@ -29,6 +29,20 @@ FlowRouter.route('/top-picks', {
   },
 });
 
+FlowRouter.route('/vendors', {
+  name: 'Vendors_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Vendors_Page' });
+  },
+});
+
+FlowRouter.route('/diners', {
+  name: 'Diners_Page',
+  action() {
+    BlazeLayout.render('App_Body', { main: 'Diners_Page' });
+  },
+});
+
 FlowRouter.route('/add', {
   name: 'Add_Stuff_Page',
   action() {
