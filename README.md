@@ -10,7 +10,7 @@
 ![](https://github.com/amsanchez93/final-project-mockup/blob/master/doc/Available%20Now%20Page.png)
 
 #Top Picks Page
-![](https://github.com/amsanchez93/final-project-mockup/blob/master/doc/Top%20Picks%20Page.png)
+![](https://github.com/amsanchez93/final-project-mockup/blob/master/doc/Today's%20Picks%20Page.png)
 
 #Diners Page
 ![](https://github.com/amsanchez93/final-project-mockup/blob/master/doc/Diners%20Page.png)
