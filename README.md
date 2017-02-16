@@ -1,5 +1,7 @@
 # final-project-mockup
 
+# ICS314 Software Engineering: Mockup Web Pages for Final Project
+
 #Landing Page
 ![](https://github.com/amsanchez93/final-project-mockup/blob/master/doc/Landing%20Page.png)
 
